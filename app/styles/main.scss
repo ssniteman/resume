@@ -13,7 +13,7 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 body {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(36, 134, 222);
+    background-color: rgb(38, 137, 225);
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -105,7 +105,7 @@ body {
 .name {
     color: rgb(254, 154, 0);
     font-size: 34px;
-    text-shadow: 1px 1px 0px rgb(238,238,238);
+    text-shadow: 1px 1px 0px white;
 
 }
 
@@ -136,4 +136,9 @@ h5 {
     font-style: italic;
     margin-top: 25px;
     margin-bottom: 25px;
+}
+
+.logo {
+    width: 700px;
+    margin-bottom: -55px;
 }
