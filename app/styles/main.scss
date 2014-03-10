@@ -62,12 +62,11 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-    text-align: center;
+   /* text-align: center;*/
     border-bottom: 1px solid #e5e5e5;
-    .btn {
-        font-size: 21px;
-        padding: 14px 24px;
-    }
+    font-size: 16px;
+    padding: 14px 24px;
+    
 }
 
 /* Supporting marketing content */
@@ -116,4 +115,25 @@ body {
 
 .all-icons {
     margin-left: 385px;
+}
+
+.devskills {
+    color: black;
+    background-color: white;
+}
+
+.marketing {
+    color: black;
+}
+
+h4 {
+    color: rgb(254, 154, 0);
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+h5 {
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
