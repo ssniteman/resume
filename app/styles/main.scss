@@ -65,8 +65,7 @@ body {
    /* text-align: center;*/
     border-bottom: 1px solid #e5e5e5;
     font-size: 16px;
-    padding: 14px 24px;
-    
+    padding: 14px 33px 2px;    
 }
 
 /* Supporting marketing content */
@@ -145,11 +144,19 @@ h5 {
 }
 
 .opening-lines {
+    line-height: 34px;
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 
 .link {
-   color: rgb(248, 152, 29);
+   color: #FDE5C5;
    font-size: 22px;
+   border-bottom: 2px solid rgb(254, 154, 0);
+}
+
+.example-link {
+    color: #FDE5C5;
+    border-bottom: 2px solid #fe9a00;
 }
